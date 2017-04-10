@@ -1,5 +1,7 @@
-I would like to apologize for not following up with this plugin because i has been migrate over to Laravel. However i would like to thanks everyone for using this plugin. Please do let me know is there any nice fork of this project, i will share to link for everyone here. 
+This plugin is based on warrence/yii2-kartikgii for using modal in view/editing
 
+Thanks to warrence
+ 
 yii2-kartikgii
 ==============
 
@@ -25,13 +27,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-$ php composer.phar require warrence/yii2-kartikgii "dev-master"
+$ php composer.phar require torvaldz/yii2-kartikgii "dev-master"
 ```
 
 or add
 
 ```
-"warrence/yii2-kartikgii": "dev-master"
+"torvaldz/yii2-kartikgii": "dev-master"
 ```
 
 to the ```require``` section of your `composer.json` file.
@@ -49,7 +51,7 @@ $config['modules']['gii']['class'] = 'yii\gii\Module';
 ```php
 //Add this into backend/config/main-local.php
 $config['modules']['gii']['generators'] = [
-        'kartikgii-crud' => ['class' => 'warrence\kartikgii\crud\Generator'],
+        'kartikgii-crud' => ['class' => 'torvaldz\kartikgii\crud\Generator'],
     ];
 ```
 

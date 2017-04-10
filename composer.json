@@ -1,17 +1,17 @@
 {
-    "name": "warrence/yii2-kartikgii",
+    "name": "torvaldz/yii2-kartikgii",
     "description": "Gii Generator base on Kartik-V extension https://github.com/kartik-v",
     "authors": [
         {
 
-            "name": "Warrence",
+            "name": "ToRvaLDs",
 
-            "email": "warrence@gmail.com"
+            "email": "torvaldz@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "warrence\\kartikgii\\": ""
+            "torvaldz\\kartikgii\\": ""
         }
     },
     "require": {
